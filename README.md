@@ -1,3 +1,7 @@
+# Melhorias:
+- Adicionar estrutura básica do swagger.
+
+
 # Passo a Passo:
 ## 1
   - Configurei o repositório;
