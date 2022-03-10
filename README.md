@@ -23,7 +23,7 @@
 ### RN:
   -  Criar uma rota do tipo POST para receber a requisição;
   -  Fazer uma requisição GET para API - SYSTEC;
-   >[!ROTA]
+   >[!TIP]
    >
    >`https://gerente-api.inforlube.com/Gerente.Api/api/service/validate/%7bplate%7d/%7bdocument%7d/%7b`
 
