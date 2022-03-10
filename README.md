@@ -23,12 +23,12 @@
 ### RN:
   -  Criar uma rota do tipo POST para receber a requisição;
   -  Fazer uma requisição GET para API - SYSTEC;
-   >[!ROTA]
+   >ROTA:
    >
    >`https://gerente-api.inforlube.com/Gerente.Api/api/service/validate/%7bplate%7d/%7bdocument%7d/%7b`
 
   -  Validar última troca de óleo < 30 dias;
-   >[!ATENÇÃO]
+   >OBSERVAÇÃO
    >
    > Verificar se elegível == true e troca de óleo (serviceDate) < 30 dias!
 
