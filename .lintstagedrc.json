@@ -1,9 +1,7 @@
-
 {
-  "*.ts": [
-    "eslint 'src/**/*.ts' --fix",
-    "prettier --write src/**/*.ts",
+  "*.{ts, tsx}": [
+    "eslint 'src/**/*.{ts,tsx}' --fix",
+    "prettier --write src/**/*.{ts,tsx}",
     "yarn test:staged"
   ]
 }
-
