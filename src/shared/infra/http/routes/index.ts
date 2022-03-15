@@ -1,7 +1,7 @@
-import express, { Router } from 'express'
+import { Router } from 'express'
 
 const routes = Router()
 
-routes.use('/', (_req, res) => res.send('Ola mundo dnv'))
+routes.get('/', (_req, res) => res.status(200).json({ message: 'Hello World' }))
 
 export { routes }
