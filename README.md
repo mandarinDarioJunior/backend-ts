@@ -14,6 +14,10 @@
   - Mudei a instância do express e rotas no server.ts para o app.ts; `@shared/infra/http/app.ts`
   - Criei um router; `@shared/infra/http/routes/index.ts`
 
+## 5 - Tests
+  - Adicionado Jest como dependência de oficial de testes.
+  - Adicionado o preset ts-jest; `jest.config.ts`
+
 ====================================================================
 
 # Requisitos:
