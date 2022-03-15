@@ -21,6 +21,7 @@
 ## 5 - Tests
   - Adicionado Jest como dependência de oficial de testes.
   - Adicionado o preset ts-jest; `jest.config.ts`
+  - Nomes dos arquivos de testes devem ser nomeados com *.spec.ts
 
 ====================================================================
 
