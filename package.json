@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "prepare": "husky install",
     "lint-staged": "node node_modules/.bin/lint-staged",
     "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules --respawn src/shared/infra/http/server.ts",
-    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand --detectOpenHandles",
-    "test:unit": "yarn test --watch -c jest-unit-config.ts",
-    "test:staged": "yarn test --findRelatedTests"
+    "test": "jest"
   },
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "node-fetch": "^3.2.3",
     "swagger-ui-express": "^4.3.0"
   },
   "devDependencies": {
